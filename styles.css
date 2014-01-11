@@ -18,6 +18,7 @@ h1 { height: 36px; text-align: center; font-weight: 100; }
 
 .container {
   padding-top: 200px;
+  /*padding-top: 35%;*/
   width: 80%;
   margin: 0 auto;
 }
@@ -198,4 +199,21 @@ nav .links-container {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
+}
+
+/* Responsive Styles */
+/* Smartphone Portrait */
+@media only screen and (max-width : 360px) {
+  .container { padding-top: 0; }
+  h1 { height: auto; }
+  .social-link {
+    display: block;  margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+}
+
+/* iPhone 5 Landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+  .container { padding-top: 50px; }
 }
