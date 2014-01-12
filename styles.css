@@ -14,7 +14,8 @@ body { font-family: 'Open Sans', sans-serif; }
 header { font-family: 'Lato', sans-serif; }
 
 /* Main Styles */
-h1 { height: 36px; text-align: center; font-weight: 100; }
+header { margin-bottom: 10px; }
+h1 { font-size: 36px; text-align: center; font-weight: 100; margin: 0; }
 
 .container {
   padding-top: 200px;
@@ -29,14 +30,14 @@ nav .links-container {
 
 .social-link {
   display: inline-block;
-
-  padding-top: 1px;
   height: 14px;
 }
 
 .social-link a {
   padding: 0 5px;
   color: #584958;
+
+  text-decoration: none;
 }
 
 .social-link a:hover {
